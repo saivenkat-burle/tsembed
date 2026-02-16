@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@thoughtspot/visual-embed-sdk": "^1.45.3"
+  }
+}
