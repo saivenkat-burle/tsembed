@@ -484,9 +484,7 @@ app.get("/api/get-abac-token", async (req, res) => {
 
     // 2. The Payload with Variable Values
     const tokenRequestPayload = {
-      secret_key: "0d8a7d5a-3c6d-4833-9bff-61649ee86a37",
-      // secret_key: "af926d72-6d63-4e78-afda-ccdf6365e6c7",
-      // username: "sv",
+      secret_key: "",
 
       username: "whitelist",
       validity_time_in_sec: 3600,
